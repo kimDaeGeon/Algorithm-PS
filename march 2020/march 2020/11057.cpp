@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-static int dp[1001][10];
+static long long dp[1001][10];
 
 int main() {
 	int n;
@@ -20,13 +20,13 @@ int main() {
 	}
 
 	
-	int sum = 0;
+	long long sum = 0;
 
 	for (int i = 0; i < 10; i++) {
 		sum += dp[n][i];
 	}
 
-	cout << sum << '\n';
+	cout << sum%10007 << '\n';
 
 	return 0;
 }
