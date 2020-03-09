@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\graph">
+      <UniqueIdentifier>{d3fda578-a375-476d-bf49-b58a24ce9823}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15990_fail.cpp">
@@ -90,7 +93,16 @@
     <ClCompile Include="1076.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1107.cpp">
+    <ClCompile Include="13023_matrix.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1408.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1920.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
