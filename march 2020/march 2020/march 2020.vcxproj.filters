@@ -96,14 +96,17 @@
     <ClCompile Include="13023_matrix.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="dfs.cpp">
-      <Filter>소스 파일\graph</Filter>
-    </ClCompile>
     <ClCompile Include="1408.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1920.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs.cpp">
+      <Filter>소스 파일\graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
