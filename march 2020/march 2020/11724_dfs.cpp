@@ -36,7 +36,8 @@ int main() {
 
 	cout << connection << '\n';
 
-
+	delete[] edge;
+	delete[] isVisited;
 	return 0;
 }
 

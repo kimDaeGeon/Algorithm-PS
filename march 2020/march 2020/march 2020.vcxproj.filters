@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\graph">
       <UniqueIdentifier>{d3fda578-a375-476d-bf49-b58a24ce9823}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\graph\bfs">
+      <UniqueIdentifier>{9fa973d8-af15-4e78-bd13-c688baa5384f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graph\dfs">
+      <UniqueIdentifier>{3b7e704d-1d4a-4de4-a995-1f4d27ba393c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15990_fail.cpp">
@@ -43,9 +49,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="5522.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1904.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9657_BOTTOMUP.cpp">
@@ -111,14 +114,32 @@
     <ClCompile Include="1260.cpp">
       <Filter>소스 파일\graph</Filter>
     </ClCompile>
+    <ClCompile Include="1904.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1012_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="1707_dfs.cpp">
+      <Filter>소스 파일\graph\dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="1707_dfs_rec.cpp">
+      <Filter>소스 파일\graph\dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="1707_ans.cpp">
+      <Filter>소스 파일\graph\dfs</Filter>
+    </ClCompile>
     <ClCompile Include="11724_dfs.cpp">
-      <Filter>소스 파일\graph</Filter>
+      <Filter>소스 파일\graph\dfs</Filter>
     </ClCompile>
     <ClCompile Include="11724_bfs.cpp">
-      <Filter>소스 파일\graph</Filter>
+      <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
-    <ClCompile Include="1707.cpp">
-      <Filter>소스 파일\graph</Filter>
+    <ClCompile Include="2667_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="4963_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
