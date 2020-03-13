@@ -21,7 +21,7 @@ int main() {
 	}
 
 	//edge sort
-	for (int i = 1; i <= m; i++) {
+	for (int i = 1; i <= n; i++) {
 		std::sort(edge[i].begin(), edge[i].end());
 	}
 
