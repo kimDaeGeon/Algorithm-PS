@@ -27,8 +27,10 @@ int main() {
 		std::sort(edge[i].begin(), edge[i].end());
 	}
 
+
 }
 
 void BFS(int node, const vector<int>* edge, int start) {
-
+	queue<int> route;
+	bool* isVisited = new bool[node + 1];
 }
