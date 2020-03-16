@@ -26,19 +26,13 @@ int main() {
 		std::sort(edge[i].begin(), edge[i].end());
 	}
 
-<<<<<<< HEAD
 
-=======
 	BFS(n, edge, start);
->>>>>>> e4a0c9db30d78934b3cbd103317f7e1f5cbd4462
 }
 
 void BFS(int node, const vector<int>* edge, int start) {
 	queue<int> route;
 	bool* isVisited = new bool[node + 1];
-<<<<<<< HEAD
-=======
-
 	for (int i = 1; i <= node; i++) {
 		isVisited[i] = false;
 	}
@@ -65,5 +59,4 @@ void BFS(int node, const vector<int>* edge, int start) {
 	}
 	cout << '\n';
 	return;
->>>>>>> e4a0c9db30d78934b3cbd103317f7e1f5cbd4462
 }

@@ -141,5 +141,23 @@
     <ClCompile Include="4963_bfs.cpp">
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
+    <ClCompile Include="10026_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="16929_dfs.cpp">
+      <Filter>소스 파일\graph\dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="2475.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="2606_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="2583_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
