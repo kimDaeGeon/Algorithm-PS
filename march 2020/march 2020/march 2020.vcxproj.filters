@@ -159,6 +159,9 @@
     <ClCompile Include="2583_bfs.cpp">
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
+    <ClCompile Include="7576_bfs_wrong.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
     <ClCompile Include="7576_bfs.cpp">
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>

@@ -1,51 +1,66 @@
 #include<iostream>
-#include<stack>
+#include<vector>
+#include<string>
 using namespace std;
 
-int x_len, y_len;
-
-const int dx[] = { 0,1,0,-1 };
-const int dy[] = { -1,0,1,0 };
-
-static char map[50][50] = { 0 };
+static int x_size, y_size;
+static char map[50][50];
 static bool isVisited[50][50] = { false };
 
-bool DFS(int x, int y, char type);
+bool DFS(int x, int y, int prev_x, int prev_y, char type);
 
 int main() {
-	cin >> x_len >> y_len;
+	cin >> y_size >> x_size;
 
-	for (int y = 0; y < y_len; y++) {
-		for (int x = 0; x < x_len; x++) {
+	for (int y = 0; y < y_size; y++) {
+		for (int x = 0; x < x_size; x++) {
 			cin >> map[y][x];
 		}
 	}
+
+	//찾아낸 모든 char 에 대해 깊이우선탐색 진행
+	bool isCycleExist = false;
+	for (int y = 0; y < y_size; y++) {
+		for (int x = 0; x < x_size; x++) {
+			if (isVisited[y][x] == false) {
+				if (DFS(x,y,x,y,map[y][x])) {
+					isCycleExist = true;
+					cout << "Yes" << '\n';	
+					break;
+				}
+			}
+		}
+		if (isCycleExist) break;
+	}
+
+	if (!isCycleExist) cout << "No" << '\n';
+
+	return 0;
 }
 
-bool DFS(int x, int y, char type) {
-	//이전 칸이 아닌 칸으로 이동, 이미 방문했던 칸을 방문했으면 사이클 존재
+bool DFS(int x, int y, int prev_x, int prev_y, char type) {
+	static int cycle;
 
-	int distance = 0;
-	stack<pair<int, int>> dfs;
+	cycle++;
+	const int dx[] = { 1,-1,0,0 };
+	const int dy[] = { 0,0,1,-1 };
 
-	dfs.push(make_pair(y, x));
+	if (isVisited[y][x]) return true;
+
 	isVisited[y][x] = true;
-	distance++;
+	for (int dir = 0; dir < 4; dir++) {
+		int X = x + dx[dir];
+		int Y = y + dy[dir];
 
-	int x = dfs.top().second;
-	int y = dfs.top().first;
-
-	while (!dfs.empty()) {
-		for (int dir = 0; dir < 4; dir++) {
-			int X = x + dx[dir];
-			int Y = y + dy[dir];
-			if ((0 <= X && X < x_len) && (0 <= Y && Y < y_len)) {
-				if (map[Y][X] == type && isVisited[Y][X] == false) {
-
+		if ((0 <= X && X < x_size) && (0 <= Y && Y < y_size)) {
+			//이전과 다른 좌표로 탐색
+			if (!(X == prev_x && Y == prev_y) && map[Y][X] == type) {
+				if (DFS(X, Y, x, y, type)) {
+					if (cycle >= 4) return true;
 				}
 			}
 		}
 	}
 
-
+	return false;
 }
