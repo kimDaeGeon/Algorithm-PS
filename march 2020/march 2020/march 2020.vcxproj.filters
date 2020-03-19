@@ -189,5 +189,14 @@
     <ClCompile Include="14502.cpp">
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
+    <ClCompile Include="11403.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="7562.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="16939.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
