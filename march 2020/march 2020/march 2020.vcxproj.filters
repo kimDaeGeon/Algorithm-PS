@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\graph\dfs">
       <UniqueIdentifier>{3b7e704d-1d4a-4de4-a995-1f4d27ba393c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{04fc5cdb-3e79-4832-95be-3e97b0b14bd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15990_fail.cpp">
@@ -163,6 +166,27 @@
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
     <ClCompile Include="7576_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="1697_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="1991_1.cpp">
+      <Filter>소스 파일\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="2589_bfs.cpp">
+      <Filter>소스 파일\graph\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="2747.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2775.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2581.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14502.cpp">
       <Filter>소스 파일\graph\bfs</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,2 +1,5 @@
-﻿  16929_dfs.cpp
+﻿  14502.cpp
+D:\baekjoon\march 2020\march 2020\14502.cpp(33,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\baekjoon\march 2020\march 2020\14502.cpp(34,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\baekjoon\march 2020\march 2020\14502.cpp(35,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   march 2020.vcxproj -> D:\baekjoon\march 2020\Debug\march 2020.exe
