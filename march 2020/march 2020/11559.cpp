@@ -82,13 +82,13 @@ bool BFS(int x, int y, char puyo) {
 }
 
 void rearrangePuyo() {
-	for (int i = 11; i >= 0; i--)
-		for (int j = 0; j <= 6; j++)
+	for (int y = y_size - 1; y >= 0; y--)
+		for (int x = 0; x <= x_size; x++)
 		{
-			if (i == 11) continue;
-			int tmp = i;
-			while (map[tmp + 1][j] == '.' && map[tmp][j] != '.')
-				map[tmp + 1][j] = map[tmp][j], map[tmp][j] = '.', tmp++;
-
+			if (y == 11) continue;
+			int tmp = y;
+			while (map[tmp + 1][x] == '.' && map[tmp][x] != '.') {
+				map[tmp + 1][x] = map[tmp][x], map[tmp][x] = '.'; tmp++;
+			}
 		}
 }
