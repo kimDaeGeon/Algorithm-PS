@@ -1,0 +1,5 @@
+﻿  11279.cpp
+D:\Algorithm PS\2020-07\2020-07\11279.cpp(33,17): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\Algorithm PS\2020-07\2020-07\11279.cpp(37,16): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\Algorithm PS\2020-07\2020-07\11279.cpp(42,18): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  2020-07.vcxproj -> D:\Algorithm PS\2020-07\Debug\2020-07.exe
